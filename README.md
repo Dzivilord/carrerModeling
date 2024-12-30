@@ -35,6 +35,7 @@
 * Trực quan hóa dữ liệu
 * Mô hình hóa dữ liệu, đánh giá và cải thiện các mô hình
 
+**Trang web deploy mô hình:** https://predictsalarymodel.onrender.com/
 ---
 # Tổ chức GitHub
 ```
@@ -56,4 +57,9 @@
 ├── ModellingData                            
 │   ├── dataPreprocessing.ipynb              <- Notebook for preprocessing data before modelling
 │   ├── models.ipynb                         <- Notebook for modelling data and evaluating
-│
+├── DeployModel
+│   ├── app.py
+│   ├── predict_salary_random_forest.pkl
+│   ├── prediction_history.json
+│   ├── requirement.txt
+│   ├── index.html
